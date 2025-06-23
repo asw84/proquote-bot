@@ -1,0 +1,27 @@
+/
+├── handlers/
+│   ├── __init__.py
+│   └── user_handlers.py
+│
+├── keyboards/
+│   ├── __init__.py
+│   └── inline.py
+│
+├── services/
+│   ├── __init__.py
+│   ├── calculator.py
+│   ├── database.py
+│   └── quotes.py
+│
+├── utils/
+│   ├── __init__.py
+│   ├── set_menu.py
+│   └── state.py
+│
+├── .env                  # <-- ВАЖНО: Проверьте его содержимое
+├── Dockerfile
+├── docker-compose.yml
+├── bot.py
+├── config.py
+├── requirements.txt
+└── README.md             # (Опционально, но рекомендуется)

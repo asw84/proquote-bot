@@ -1,0 +1,4 @@
+Шаг 3: Запуск через Docker Compose
+Убедитесь, что на вашем сервере установлен Docker и Docker Compose. Затем выполните команду в корневой папке проекта:
+Generated bash
+sudo docker-compose up --build -d

@@ -1,0 +1,7 @@
+services:
+  proquote-bot:
+    build: .
+    container_name: proquote-bot
+    restart: always
+    env_file:
+      - .env
